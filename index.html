@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" 
+    integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" 
+    integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="renderer.js"></script> -->
+    <title>Virtual OS!</title>
+    <style> 
+     body{
+        padding: 20%;
+        padding-top: 10%;
+     }
+    </style>
+  </head>
+  <body>
+    <h1>Activate virtual os</h1>
+    <!-- We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>. -->
+
+
+    <!-- <p>Current theme source: <strong id="theme-source">System</strong></p>
+    <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    <button id="reset-to-system">Reset to System Theme</button> -->
+    <button id = "activate-btn" class="ui primary button">
+        Activate
+      </button>
+
+      <script src="renderer.js"></script>
+    
+
+  </body>
+</html>
